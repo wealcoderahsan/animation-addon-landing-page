@@ -1,0 +1,63 @@
+.aae-header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline-start: 50px;
+    padding-inline-end: 50px;
+}
+.aae-header-content {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.aae-logo{
+    position: relative;
+    padding-right: 50px;
+}
+.aae-logo-line{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 24px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.aae-navigation-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 45px;
+    li{
+        a{
+            font-size: 16px;
+            line-height: 1.5;
+            padding-inline-start: 0;
+            padding-inline-end: 0;
+        }
+    }
+}
+.aae-header-btn {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+@media (min-width:1200px){
+    .aae-mobile-menu-wrapper{
+        display: none;
+    }
+}
+@media (max-width:1200px){
+    .aae-mobile-menu-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px;
+    }
+    .aae-header-area{
+        display: none;
+    }
+}
+.aae-mobile-logo {
+    cursor: pointer;
+}

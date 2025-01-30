@@ -1,0 +1,221 @@
+.aae-hero-area{
+    padding-top: 60px;
+    padding-bottom: 180px;
+    @media #{$lg}{
+        padding-bottom: 100px;
+    }
+    @media #{$sm}{
+        padding-bottom: 60px;
+    }
+    .aae-hero-description{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        font-size: 18px;
+        @media #{$sm}{
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            font-size: 16px;
+        }
+        span{
+            color: var(--white);
+            text-decoration: underline;
+        }
+    }
+}
+.hero-container {
+    max-width: 1480px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+    @media #{$sm} {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+.aae-title-content {
+    max-width: 1116px;
+    margin-inline-start: auto;
+    padding-top: 50px;
+    @media #{$md}{
+        padding-top: 30px;
+    }
+    @media #{$sm}{
+        padding-top: 20px;
+    }
+}
+.aae-hero-title {
+    border: 2px dashed rgba(255, 255, 255, 0.1);
+    display: inline-block;
+    padding-inline-start: 35px;
+    padding-inline-end: 40px;
+    padding-top: 5px;
+    padding-bottom: 25px;
+    @media #{$lg}{
+        padding-inline-start: 20px;
+        padding-inline-end: 20px;
+    }
+    @media #{$sm}{
+        padding-inline-start: 0;
+        padding-inline-end: 0;
+        border: 0;
+        padding-bottom: 0;
+    }
+}
+.aae-hero-title svg{
+    height: auto;
+}
+#a {
+    @media #{$lg}{
+        width: 140px;
+    }
+    @media #{$md}{
+        width: 100px;
+    }
+    @media #{$sm}{
+        width: 50px;
+    }
+}
+#n {
+    @media #{$lg}{
+        width: 110px;
+    }
+    @media #{$md}{
+        width: 72px;
+    }
+    @media #{$sm}{
+        width: 40px;
+        position: relative;
+        top: 4px;
+    }
+}
+#i {
+    @media #{$lg}{
+        width: 64px;
+        height: 121px;
+    }
+    @media #{$md}{
+        width: 45px;
+        height: 97px;
+    }
+    @media #{$sm}{
+        width: 22px;
+        height: 57px;
+        position: relative;
+        top: 0px;
+    }
+}
+#m {
+    @media #{$xl}{
+        width: 230px;
+    }
+    @media #{$lg}{
+        width: 150px;
+    }
+    @media #{$md}{
+        width: 112px;
+    }
+    @media #{$sm}{
+        width: 60px;
+    }
+}
+#sma{
+    @media #{$lg}{
+        width: 85px;
+    }
+    @media #{$md}{
+        width: 60px;
+    }
+    @media #{$sm}{
+        width: 36px;
+    }
+}
+#t{
+    @media #{$lg}{
+        width: 60px;
+    }
+    @media #{$md}{
+        width: 36px;
+    }
+    @media #{$sm}{
+        width: 24px;
+    }
+}
+#e{
+    @media #{$lg}{
+        width: 82px;
+    }
+    @media #{$md}{
+        width: 58px;
+    }
+    @media #{$sm}{
+        width: 40px;
+    }
+}
+.aae-hero-subtitle{
+    font-size: 280px;
+    font-family: var(--font_ppfragment) !important;
+    text-align: end;
+    color: var(--white) !important;
+    font-weight: 300;
+    position: relative;
+    @media #{$xl}{
+        font-size: 200px;
+    }
+    @media #{$lg}{
+        font-size: 120px;
+    }
+    @media #{$md}{
+        font-size: 100px;
+    }
+    @media #{$sm}{
+        font-size: 60px;
+        text-align: start;
+    }
+}
+.aae-primary-btn-wrapper {
+    display: inline-block;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 35px;
+    padding: 23px 10px;
+    @media #{$sm}{
+        padding: 15px 5px;
+    }
+}
+.aae-hero-btn {
+    gap: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 35px;
+    @media #{$md}{
+        padding-top: 20px;
+    }
+    @media #{$sm}{
+        gap: 15px;
+        justify-content: flex-start;
+    }
+    .aae-primary-btn {
+        padding: 17px 35px;
+        @media #{$sm}{
+            padding: 12px 25px;
+        }
+    }
+}
+.your span {
+    font-size: 28px;
+    line-height: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.wp span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 15px 20px;
+    border-radius: 35px;
+}
