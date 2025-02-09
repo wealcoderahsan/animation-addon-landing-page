@@ -3,12 +3,13 @@
     src: url('../fonts/PPFragment-GlareLight.otf');
     font-weight: 300;
 }
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Oswald:wght@200..700&display=swap');
 
 :root {
     // Downloaded Fonts
     --font_primary: 'DM Sans';
     --font_ppfragment: 'ppfragment';
+    --font_oswald: 'Oswald';
 }
 $font_primary: 'DM Sans';
 $font_ppfragment: 'ppfragment';
