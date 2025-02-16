@@ -1,3 +1,8 @@
+/*
+-----------------------------------
+WIDGET AREA START
+-----------------------------------
+*/
 .aae-widgets-area{
     position: relative;
     background: #1A1A1A;
@@ -14,14 +19,15 @@
         z-index: -2;
         top: -350px;
      }
-     .section-description{
+    .section-description{
         padding-bottom: 25px;
         @media #{$md}{
             padding-bottom: 0;
         }
-     }
+    }
+    
  }
- .section-title-wrapper {
+.section-title-wrapper {
     text-align: center;
     display: flex;
     flex-direction: column;
