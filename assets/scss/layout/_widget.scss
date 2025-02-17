@@ -33,6 +33,11 @@ WIDGET AREA START
     flex-direction: column;
     gap: 20px;
 }
+.aae-widgets-item-container{
+    max-width: 1600px;
+    display: flex;
+    flex-direction: column;
+}
 .aae-widgets-item{
     background: var(--white);
     padding: 60px;
@@ -57,12 +62,96 @@ WIDGET AREA START
     // }
     &.aae-widgets-item-one{
         background-color: #404CD6;
+        margin-bottom: 320px;
+        @media #{$mac}{
+            margin-bottom: 150px;
+        }
+        @media #{$lg}{
+            margin-bottom: 50px;
+        }
+        @media #{$sm}{
+            margin-bottom: 30px;
+        }
     }
     &.aae-widgets-item-two{
         background-color: #F6B22B;
+        margin-left: 214px;
+        @media #{$md}{
+            margin-left: 0;
+        }
     }
     &.aae-widgets-item-three{
         background-color: #21A98E;
+        margin-left: auto;
+        margin-right: 160px;
+        margin-top: -22px;
+        @media #{$mac}{
+            margin-top: 30px;
+        }
+        @media #{$lg}{
+            margin-bottom: 50px;
+            margin-right: 0;
+        }
+        @media #{$md}{
+            margin-left: unset;
+        }
+        @media #{$sm}{
+            margin-bottom: 30px;
+        }
+    }
+    &.aae-widgets-item-four{
+        background-color: #3C862A;
+        @media #{$lg}{
+            margin-bottom: 50px;
+        }
+        @media #{$sm}{
+            margin-bottom: 30px;
+        }
+    }
+    &.aae-widgets-item-five{
+        background-color: #FF6C45;
+        margin-left: auto;
+        margin-top: -100px;
+        @media #{$lg}{
+            margin-top: 0;
+            margin-bottom: 50px;
+        }
+        @media #{$md}{
+            margin-left: unset;
+        }
+        @media #{$sm}{
+            margin-bottom: 30px;
+        }
+    }
+    &.aae-widgets-item-six{
+        background-color: #22A0CE;
+        margin-left: 215px;
+        margin-bottom: 200px;
+        @media #{$mac}{
+            margin-bottom: 150px;
+        }
+        @media #{$lg}{
+            margin-bottom: 50px;
+            margin-left: 50px;
+        }
+        @media #{$md}{
+            margin-left: 0;
+        }
+        @media #{$sm}{
+            margin-bottom: 30px;
+        }
+    }
+    &.aae-widgets-item-seven{
+        background-color: #7D4BC0;
+        margin-left: auto;
+        margin-right: 340px;
+        @media #{$lg}{
+            margin-right: 50px;
+        }
+        @media #{$md}{
+            margin-left: unset;
+            margin-right: 0;
+        }
     }
     .aae-widgets-item-icon{
         margin-bottom: 38px;
@@ -75,6 +164,9 @@ WIDGET AREA START
         font-weight: 700;
         line-height: 1;
         padding-bottom: 6px;
+        @media #{$sm}{
+            font-size: 26px;
+        }
     }
     .aae-widgets-item-wrapper{
         display: flex;
@@ -86,6 +178,9 @@ WIDGET AREA START
         font-size: 18px;
         font-weight: 500;
         color: var(--white);
+        @media #{$sm}{
+            font-size: 16px;
+        }
     }
     .aae-widgets-btn {
         display: flex;

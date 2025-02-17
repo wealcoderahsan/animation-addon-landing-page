@@ -2297,6 +2297,12 @@ WIDGET AREA START
   gap: 20px;
 }
 
+.aae-widgets-item-container {
+  max-width: 1600px;
+  display: flex;
+  flex-direction: column;
+}
+
 .aae-widgets-item {
   background: var(--white);
   padding: 60px;
@@ -2312,12 +2318,134 @@ WIDGET AREA START
 }
 .aae-widgets-item.aae-widgets-item-one {
   background-color: #404CD6;
+  margin-bottom: 320px;
+}
+@media only screen and (max-width: 1500px) {
+  .aae-widgets-item.aae-widgets-item-one {
+    margin-bottom: 150px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .aae-widgets-item.aae-widgets-item-one {
+    margin-bottom: 50px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .aae-widgets-item.aae-widgets-item-one {
+    margin-bottom: 30px;
+  }
 }
 .aae-widgets-item.aae-widgets-item-two {
   background-color: #F6B22B;
+  margin-left: 214px;
+}
+@media only screen and (max-width: 991px) {
+  .aae-widgets-item.aae-widgets-item-two {
+    margin-left: 0;
+  }
 }
 .aae-widgets-item.aae-widgets-item-three {
   background-color: #21A98E;
+  margin-left: auto;
+  margin-right: 160px;
+  margin-top: -22px;
+}
+@media only screen and (max-width: 1500px) {
+  .aae-widgets-item.aae-widgets-item-three {
+    margin-top: 30px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .aae-widgets-item.aae-widgets-item-three {
+    margin-bottom: 50px;
+    margin-right: 0;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .aae-widgets-item.aae-widgets-item-three {
+    margin-left: unset;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .aae-widgets-item.aae-widgets-item-three {
+    margin-bottom: 30px;
+  }
+}
+.aae-widgets-item.aae-widgets-item-four {
+  background-color: #3C862A;
+}
+@media only screen and (max-width: 1199px) {
+  .aae-widgets-item.aae-widgets-item-four {
+    margin-bottom: 50px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .aae-widgets-item.aae-widgets-item-four {
+    margin-bottom: 30px;
+  }
+}
+.aae-widgets-item.aae-widgets-item-five {
+  background-color: #FF6C45;
+  margin-left: auto;
+  margin-top: -100px;
+}
+@media only screen and (max-width: 1199px) {
+  .aae-widgets-item.aae-widgets-item-five {
+    margin-top: 0;
+    margin-bottom: 50px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .aae-widgets-item.aae-widgets-item-five {
+    margin-left: unset;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .aae-widgets-item.aae-widgets-item-five {
+    margin-bottom: 30px;
+  }
+}
+.aae-widgets-item.aae-widgets-item-six {
+  background-color: #22A0CE;
+  margin-left: 215px;
+  margin-bottom: 200px;
+}
+@media only screen and (max-width: 1500px) {
+  .aae-widgets-item.aae-widgets-item-six {
+    margin-bottom: 150px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .aae-widgets-item.aae-widgets-item-six {
+    margin-bottom: 50px;
+    margin-left: 50px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .aae-widgets-item.aae-widgets-item-six {
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .aae-widgets-item.aae-widgets-item-six {
+    margin-bottom: 30px;
+  }
+}
+.aae-widgets-item.aae-widgets-item-seven {
+  background-color: #7D4BC0;
+  margin-left: auto;
+  margin-right: 340px;
+}
+@media only screen and (max-width: 1199px) {
+  .aae-widgets-item.aae-widgets-item-seven {
+    margin-right: 50px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .aae-widgets-item.aae-widgets-item-seven {
+    margin-left: unset;
+    margin-right: 0;
+  }
 }
 .aae-widgets-item .aae-widgets-item-icon {
   margin-bottom: 38px;
@@ -2333,6 +2461,11 @@ WIDGET AREA START
   line-height: 1;
   padding-bottom: 6px;
 }
+@media only screen and (max-width: 767px) {
+  .aae-widgets-item .aae-widgets-item-title {
+    font-size: 26px;
+  }
+}
 .aae-widgets-item .aae-widgets-item-wrapper {
   display: flex;
   gap: 20px;
@@ -2343,6 +2476,11 @@ WIDGET AREA START
   font-size: 18px;
   font-weight: 500;
   color: var(--white);
+}
+@media only screen and (max-width: 767px) {
+  .aae-widgets-item .aae-widgets-description {
+    font-size: 16px;
+  }
 }
 .aae-widgets-item .aae-widgets-btn {
   display: flex;
